@@ -55,4 +55,5 @@ text
 - [ ] Add MITRE ATT&CK technique mapping for each scenario
 
 **Author:** Daniel Young
-**Contact:** [Add your LinkedIn or email here]
+**Contact:** dy895159@gmail.com 6402049217
+
