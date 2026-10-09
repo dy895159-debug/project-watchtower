@@ -1,6 +1,6 @@
 Markdown
 
-# Scenario 1: SMB Brute Force Attack ![Kali NetExec brute-force attack](../screenshots/1soc.jpg)
+# Scenario 1: SMB Brute Force Attack ![Kali NetExec brute-force attack](../1Soc.jpg)
 
 ## Objective
 Simulate a real-world credential brute-force attack against a Windows SMB service, then detect it using Splunk.
@@ -39,7 +39,7 @@ text
 
 This was converted into a scheduled Splunk Alert that runs every 5 minutes, automatically flagging this pattern if it occurs.
 
-## Results ![Splunk alert triggered](../screenshots/3soc.jpg)
+## Results ![Splunk alert triggered](../3Soc.jpg)
 
 - Captured 3 failed logon events (EventCode 4625) and 1 successful logon (EventCode 4624), all originating from the attacker IP (10.0.2.4)
 - Splunk alert successfully triggered, confirming automated detection capability
