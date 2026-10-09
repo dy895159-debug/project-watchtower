@@ -29,7 +29,7 @@ This technique works by uploading an executable to the target's ADMIN$ share, th
 
 ## Detection
 
-### Windows Defender
+### Windows Defender ![Windows Defender quarantine](../screenshots/2soc.jpg)
 Windows Defender automatically detected and quarantined the uploaded executable within seconds.
 
 - **Threat Name:** `VirTool:Win32/RemoteExec!pz`
